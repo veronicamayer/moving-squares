@@ -1,0 +1,30 @@
+section {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    margin-left: 1vw;
+}
+
+.greendiv {
+    height: 50px;
+    width: 50px;
+    background-color: #35811d;
+    position: absolute;
+    left: 0;
+    transition:left 2s ease-in-out;
+}
+
+.reddiv {
+    height: 50px;
+    width: 50px;
+    background-color: #d81d2c;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition:left 1s ease-in-out;
+    transition-delay: 1s;
+}
+
+section:hover div {
+    left: 90%;
+}
